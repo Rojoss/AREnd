@@ -1,0 +1,10 @@
+main : com.josroossien.arend.AREnd
+name: AREnd
+version: 0.1
+description: End reset plugin and fire spewing dragon.
+depend: [CWCore]
+commands:
+  arend:
+    description: Main end command.
+    usage: /<command>
+    aliases: [end]
